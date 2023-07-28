@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector("#container"),t=function(t,o,n){let i=t;i=document.createElement(o),i.setAttribute("class",t),i.textContent=n,i.src=n,e.appendChild(i)};t("image","img","../src/media/burger.jpg"),t("logo","div","Tonguepot"),t("bio","div","Stick your tongue in my pot")})();

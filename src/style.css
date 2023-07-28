@@ -1,0 +1,68 @@
+html{
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: url('./media/burger.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#burger{
+    width: 100%;
+}
+
+#logo{
+    font-size: 6vw;
+    font-style: italic;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+    left: 3vw;
+}
+
+#bio{
+    position: absolute;
+    top: 6vw;
+    left: 3vw;
+    color: white;
+    font-size: 2vw;
+    font-style: italic;
+}
+
+#tabs{
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vw;
+    font-size: 3vw;
+    font-weight: bold;
+    font-style: italic;
+    height: 100%;
+    margin: 0;
+    padding-left: 3vw;
+}
+
+#tabs > *{
+    cursor: pointer;
+    list-style: none; 
+    width: fit-content;   
+}
+
+#hero{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    height: 60vh;
+    width: 50vw;
+    right: 10%;
+    top: 50%;
+    transform: translate(-0%, -50%);
+    color: white;
+}
