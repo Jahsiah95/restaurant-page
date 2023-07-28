@@ -65,4 +65,15 @@ body{
     top: 50%;
     transform: translate(-0%, -50%);
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hero > *{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
